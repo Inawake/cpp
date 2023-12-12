@@ -1,0 +1,19 @@
+//将字符串存储为整型数组
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int i=0,a[100];
+    char s[]={'d','a','s','f'},c[4];
+    for(int i=0;i<4;i++)
+    {
+        a[i]=s[i];
+        cout<<a[i]<<endl;
+    }
+}
+//输出承载运算符
+ostream &operator<<(ostream &cout,student &p)
+{
+    cout<<p.name<<endl<<p.grade1<<endl<<p.grade2<<endl<<p.grade3<<endl;
+    return cout;
+};
